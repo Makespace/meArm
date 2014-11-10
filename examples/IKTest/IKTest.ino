@@ -6,18 +6,21 @@
  * Arduino    Base   Shoulder  Elbow    Gripper
  *    GND    Brown     Brown   Brown     Brown
  *     5V      Red       Red     Red       Red
- *     11    Yellow
- *     10             Yellow
- *      9                     Yellow
- *      6                               Yellow
+ *      6    Yellow
+ *      7             Yellow
+ *      8                     Yellow
+ *      9                               Yellow
+ *
+ * Changes:
+ * 2014-11-10  ksj  pins 
  */
 #include "meArm.h"
 #include <Servo.h>
 
-int basePin = 11;
-int shoulderPin = 10;
-int elbowPin = 9;
-int gripperPin = 6;
+int basePin = 6;
+int shoulderPin = 7;
+int elbowPin = 8;
+int gripperPin = 9;
 
 meArm arm;
 
